@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 const Buttons = () => {
-    const ClickHandlerPress = () => {
-        alert("welcome");
-    }
+    // const ClickHandlerPress = () => {
+    //     alert("welcome");
+    // }
     const btnArray = [
         { btnName: "About", path: "/about" },
         { btnName: "Experience", path: "/experience" },
