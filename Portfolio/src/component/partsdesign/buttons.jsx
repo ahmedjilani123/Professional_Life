@@ -16,7 +16,7 @@ const Buttons = () => {
         {
             btnArray.map((item,i)=> {
                return (
-                <div key={i} className='mt-4 text-orange-600 border border-orange-600 rounded-md flex justify-center p-1 hover:bg-slate-500 hover:shadow-inner'>
+                <div key={i} className='mt-4 text-orange-600 border border-orange-600 rounded-md flex justify-center p-1 hover:bg-slate-500 hover:shadow-inner '>
                     {/* <button className='w-full' onClick={ClickHandlerPress}>{item.btnName}</button> */}
                     <Link className='w-full flex justify-center' to={item.path}>{item.btnName}</Link>
                 </div>

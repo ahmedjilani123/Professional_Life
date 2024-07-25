@@ -15,7 +15,7 @@ const Icons = () => {
         return (
           <IconComponent
             key={index}
-            className='text-2xl text-orange-600 cursor-pointer hover:text-white'
+            className='text-2xl text-orange-600 cursor-pointer hover:text-white shadow-lg shadow-orange-600/50'
           />
         );
       })}
