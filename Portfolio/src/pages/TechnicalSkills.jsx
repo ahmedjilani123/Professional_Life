@@ -30,8 +30,7 @@ const TechnicalSkills = () => {
     { component: SiExpress, tooltip: "Express" }
   ];
   const ToolArray = [
-    { component: "Sap Bas", tooltip: "sap-bas" },
-    { component: "Sap Webide", tooltip: "sap-webide" },
+
     { component: VscVscode, tooltip: "VS Code" }
   ];
   return (
@@ -57,6 +56,18 @@ const TechnicalSkills = () => {
       </div>
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Tools</h1>
       <div className='shadow-lg shadow-orange-600/50 grid grid-cols-6 justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
+      <div className='relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-blue-500  to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
+          <div className={`imageWebIde mix-blend-multiply w-[4rem] h-[4rem] bg-cover bg-center`}></div>
+          <div className="absolute ml-[80px] px-3 py-1 text-sm text-white bg-orange-600 rounded opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform -translate-x-1/2 left-1 bottom-full mb-1">
+             Sap Webide
+            </div>
+        </div>
+        <div className='relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-blue-500  to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
+          <div className={`imageToolBas mix-blend-multiply w-[4rem] h-[4rem] bg-cover bg-center`}></div>
+          <div className="absolute ml-[80px] px-3 py-1 text-sm text-white bg-orange-600 rounded opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform -translate-x-1/2 left-1 bottom-full mb-1">
+             Sap BAS
+            </div>
+        </div>
         {
           ToolArray.map((icon, i) => (<Tools key={i} Icons={icon.component} tooltips={icon.tooltip} />))
         }

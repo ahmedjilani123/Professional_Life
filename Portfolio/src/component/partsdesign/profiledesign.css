@@ -26,4 +26,19 @@
       background-position: 180px;
     }
   }
+  .imageExperience{
+    background-image: url('../../images/experience.jpg') !important;
+  }
   
+  .imageCapm{
+    background-image: url('../../images/sapcapm.png') !important;
+  }
+  .imageToolBas{
+    background-image: url('../../images/toolbas.png') !important;
+  }
+  .imageWebIde{
+    background-image: url('../../images/webide.png') !important;
+  }
+  .imageUI5{
+    background-image: url('../../images/saplogo.png') !important;
+  }
