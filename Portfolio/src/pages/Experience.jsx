@@ -7,7 +7,7 @@ const Experience = () => {
       <div className="imageExperience group w-full h-[165px] bg-cover bg-center hover:opacity-90 cursor-pointer  border border-orange-600 rounded-md shadow-lg shadow-orange-600/50 grayscale-0 hover:grayscale"  >
         <h1 className='pt-2 transform font-poppins  text-orange-600 text-2xl pl-5 group-hover:block hidden transition ease-in-out duration-300 drop-shadow-sm'>Experience</h1>
       </div>
-      <div className='border border-orange-600 mt-3 rounded-md px-4 pt-2 shadow-lg shadow-orange-600/50'>
+      <div className='border py-2 border-orange-600 mt-3 rounded-md px-4  shadow-lg shadow-orange-600/50'>
         <div id='company_name' className='text-white '>
           <div className="relative group cursor-pointer flex w-auto">
             <h1 className='text-2xl font-poppins '>Daffodils info knowledge solutions </h1>

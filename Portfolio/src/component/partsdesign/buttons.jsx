@@ -9,7 +9,8 @@ const Buttons = () => {
         { btnName: "Experience", path: "/experience" },
         { btnName: "Technical Skills", path: "/technical_skills" },
         { btnName: "Soft Skills", path: "/soft_skills" },
-        { btnName: "Contact", path: "/contact" }
+        { btnName: "Contact", path: "/contact" },
+        { btnName: "Education", path: "/education" }
     ];
     return (
         <>

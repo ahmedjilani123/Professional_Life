@@ -11,6 +11,7 @@ import SoftSkills from './pages/SoftSkills'
 import Contact from './pages/Contact'
 import SideLoaderBar from './component/Loader/SideLoaderBar'
 import './App.css'
+import Education from './pages/Education'
 function App() {
   const [Loader,SetLoader]=useState(true);
   setTimeout(function(){
@@ -42,6 +43,7 @@ SetLoader(false);
             <Route path='/technical_skills' element={<TechnicalSkills/>}></Route>
             <Route path='/soft_skills' element={<SoftSkills/>}></Route>
             <Route path='/contact' element={<Contact/>}></Route>
+            <Route path='/education' element={<Education/>}></Route>
           </Routes>
         
         <div>
