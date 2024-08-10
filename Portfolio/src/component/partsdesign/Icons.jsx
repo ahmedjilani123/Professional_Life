@@ -9,7 +9,7 @@ const Icons = () => {
       ];
   return (
     <>
-    <div className="flex justify-around mt-8">
+  
       {iconArray.map((icon, index) => {
         const IconComponent = icon.component;
         return (
@@ -19,7 +19,7 @@ const Icons = () => {
           />
         );
       })}
-    </div>
+    
     
     </>
   )

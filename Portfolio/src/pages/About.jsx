@@ -2,6 +2,7 @@ import React from 'react'
 import profile from '../images/profilephotp.jpg'
 import { FaLinkedin, FaPhoneAlt, FaAddressCard } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
+
 const About = () => {
   const openLinkedInHandlerPress=()=>{
     window.open("https://www.linkedin.com/in/ahmed-jilani-profile/");
