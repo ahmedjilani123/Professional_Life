@@ -45,7 +45,7 @@ const TechnicalSkills = () => {
       </div>
 
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Font-End</h1>
-      <div className='shadow-lg shadow-orange-600/50 grid grid-cols-6 justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
+      <div className='shadow-lg shadow-orange-600/50 grid md:grid-cols-6 grid-cols-2  justify-items-center md:gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
 
         {
           FrontendIcon.map((icon, i) => (<Frontend key={i} Icons={icon.component} tooltips={icon.tooltip} UrlHandlerFrontEnd ={()=>UrlHandlerFrontEnd(icon.url)}/>))
@@ -53,13 +53,13 @@ const TechnicalSkills = () => {
 
       </div>
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Back-End</h1>
-      <div className='shadow-lg shadow-orange-600/50 grid grid-cols-6 justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
+      <div className='shadow-lg shadow-orange-600/50 grid md:grid-cols-6 grid-cols-2   justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
         {
           BacktendIcon.map((icon, i) => (<Backtend key={i} Icons={icon.component} tooltips={icon.tooltip} />))
         }
       </div>
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Tools</h1>
-      <div className='shadow-lg shadow-orange-600/50 grid grid-cols-6 justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
+      <div className='shadow-lg shadow-orange-600/50 grid md:grid-cols-6 grid-cols-2  justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
       <div className='hover:scale-105 ease-out transiton duration-300 relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-blue-500  to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
           <div className={`imageWebIde mix-blend-multiply w-[4rem] h-[4rem] bg-cover bg-center`}></div>
           <div className="absolute ml-[80px] px-3 py-1 text-sm text-white bg-orange-600 rounded opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform -translate-x-1/2 left-1 bottom-full mb-1">

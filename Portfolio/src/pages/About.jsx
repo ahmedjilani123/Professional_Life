@@ -9,12 +9,12 @@ const About = () => {
   }
   return (
     <>
-      <div className='border border-orange-600 rounded-md flex p-3 shadow-lg shadow-orange-600/50'>
+      <div className='border border-orange-600 rounded-md flex  flex-col md:flex-row p-3 shadow-lg shadow-orange-600/50 '>
 
-        <div id="Profile_left_side" className='w-auto h-full py-1 px-8 border border-orange-600 rounded-md'>
-          <img src={profile} className='transition ease-out duration-300 w-[200px] h-[150px] rounded-full drop-shadow-xl border border-gray-500 cursor-pointer hover:opacity-50 hover:ease-out' />
+        <div id="Profile_left_side" className='w-auto h-full md:py-1 py-4 px-8 border border-orange-600 rounded-md flex justify-center'>
+          <img src={profile} className='transition ease-out duration-300 w-[200px] md:h-[150px] rounded-full drop-shadow-xl border border-gray-500 cursor-pointer hover:opacity-50 hover:ease-out' />
         </div>
-        <div className='ml-5 w-full h-full border border-orange-600 rounded-md pl-5'>
+        <div className='md:ml-5 w-full h-full border mt-3 md:mt-0 border-orange-600 rounded-md pl-5'>
           <div className='flex h-full w-full'>
             <div className=' w-14 h-full'>
               <div className='w-9 h-9 rounded-full flex justify-center content-center items-center mt-1'><FaLinkedin className='text-3xl text-orange-600 cursor-pointer hover:text-white' /></div>

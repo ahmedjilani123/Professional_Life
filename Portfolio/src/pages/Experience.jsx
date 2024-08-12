@@ -28,16 +28,16 @@ const Experience = () => {
         <div id='project_description' className='text-white pl-2 mt-2'>Description</div>
         <div id='description_points' className='text-white pl-5' >
           <ul className="list-none px-5 mt-2">
-            <li className="relative before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
+            <li className="relative  before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
               Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.
             </li>
-            <li className="relative before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
+            <li className="relative mt-2  before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
               Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.
             </li>
-            <li className="relative before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
+            <li className="relative mt-2 before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
               Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.
             </li>
-            <li className="relative before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
+            <li className="relative mt-2 before:absolute before:left-0 before:content-['\29BF'] before:text-xs before:mt-[2px] before:text-orange-600 pl-5 font-poppins text-sm">
               Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.
             </li>
 
@@ -48,6 +48,7 @@ const Experience = () => {
    
      
       </div>
+      
       <div className='w-full h-[50px] '></div>
     </>
   )

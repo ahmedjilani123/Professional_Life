@@ -37,12 +37,12 @@ const Education = () => {
       {
         EducationArray.map((item,i)=>{
           return (
-            <div key={i} className='p-2 w-full text-white border border-orange-600 shadow-md shadow-orange-500/50 rounded-md cursor-pointer hover:border-blue-500 hover:shadow-blue-500 '>
-          <h3 className="text-lg font-semibold mb-2">{item.degreeTitle}</h3>
-          <p>{item.universityName}</p>
-          <p>{item.years}</p>
-          <p>{item.percent}</p>
-          <p>{item.location}</p>
+            <div key={i} className='p-2 md:mt-0 mt-3 w-full text-white border border-orange-600 shadow-md shadow-orange-500/50 rounded-md cursor-pointer hover:border-blue-500 hover:shadow-blue-500 '>
+          <h3 className="md:text-lg text-2xl font-semibold mb-2">{item.degreeTitle}</h3>
+          <p className='text-xl md:text-sm '>{item.universityName}</p>
+          <p className='text-xl md:text-sm '>{item.years}</p>
+          <p className='text-xl md:text-sm '>{item.percent}</p>
+          <p className=''>{item.location}</p>
         </div>
           )
         })

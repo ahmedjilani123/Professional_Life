@@ -40,7 +40,7 @@ const SoftSkills = () => {
       </div>
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Soft Skill</h1>
      
-    <div className='w-full shadow-lg mt-1 shadow-orange-600/50 grid md:grid-cols-4 grid-flow-col-1 gap-x-2 gap-y-2 p-3  border border-orange-600 rounded-md'>
+    <div className='w-full shadow-lg mt-1 shadow-orange-600/50 grid md:grid-cols-4 grid-cols-2 grid-flow-col-1 gap-x-2 gap-y-4 md:gap-y-2 p-3  border border-orange-600 rounded-md'>
     {
       technicalSoftSkill.map((skill,i)=>{
        return (   <div key={i} className='relative w-fit h-auto flex group  rounded-xl border border-orange-600 cursor-pointer shadow-md hover:shadow-orange-500'>
@@ -55,7 +55,7 @@ const SoftSkills = () => {
     </div>
     <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Languages</h1>
      
-    <div className='w-full shadow-lg mt-1 shadow-orange-600/50 grid md:grid-cols-4 grid-flow-col-1 gap-x-2 gap-y-2 p-3  border border-orange-600 rounded-md'>
+    <div className='w-full shadow-lg mt-1 shadow-orange-600/50 grid md:grid-cols-4 grid-cols-2 grid-flow-col-1 gap-x-2 md:gap-y-2 gap-y-4 p-3  border border-orange-600 rounded-md'>
     {
       languageSoftSkill.map((skill,i)=>{
        return (   <div key={i} className='relative w-fit h-auto flex group  rounded-xl border border-orange-600 cursor-pointer shadow-md hover:shadow-orange-500'>
