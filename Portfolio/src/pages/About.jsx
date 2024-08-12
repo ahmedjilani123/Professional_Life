@@ -4,6 +4,16 @@ import { FaLinkedin, FaPhoneAlt, FaAddressCard } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
 
 const About = () => {
+  const ArrayAbout =[
+    {
+      headerName:'About',
+      Description:"I am ahmed shaikh and I am pursing b.tech computer enginneering from (SOU) Silver Oak University.I have a good command of programming language like javascript ,c++ ,node js and python . I have a knowledge about sap  fiori/ui5 . I have a 2 year experience of IT industry.My strength is I'm a self-motivated and hardworking person My weakness is I'm an emotional person and I can feel comfortable and relaxed until I finish my work.I have developed a solid foundation in various aspects of computer science and engineering and have gained practical experience through my projects and internship.My long-term goal is to achieve a higher position in my career, and my short-term goal is to gain practical experience, which will help me achieve my long-term goal. My hobby is travelling and listening to music.Currently I am working with Daffodils info knowledge solutions as SAP UI5 Consultant since last 2 years and I have completed one end to end custom UI5 project implementations in sap Fiori.Having hands-on experience in SAP UI5/FIORI for around 2 years and Experience on using different data models in UI5 App. - JSON, OData, and Resource.Having knowledge in SAPUI5, SAP BTP-BAS, SAP Web-IDE, VS Code."
+    },
+    {
+      headerName:'Objective',
+      Description:"To work with an organization where can learn new skills andincrease my knowledge,abilities for the organization goals as wellas my professional growth along with the organization. and I amlooking for a challenging opportunity that will enable me to usemy skills and abilities to achieve a challenging goal."
+    }
+  ]
   const openLinkedInHandlerPress=()=>{
     window.open("https://www.linkedin.com/in/ahmed-jilani-profile/");
   }
@@ -36,18 +46,24 @@ const About = () => {
         </div>
 
       </div>
-      <div className='border border-orange-600 rounded-md p-3 mt-4'>
-        <h2 className='text-orange-600 text-xl cursor-pointer active:opacity-30 transition ease-out duration-300'>About</h2>
-        <p className='text-white ml-12 mr-5'>I am ahmed shaikh and i am pursing b.tech computer enginneering from silver oak university.I have a good command of programming language like javascript ,c++ ,node js and python . I have a knowledge about sap  fiori/ui5 . I have a 2 year experience of IT industry.</p>
-      </div>
-      <div className='border border-orange-600 rounded-md p-3 mt-4'>
-        <h2 className='text-orange-600 text-xl cursor-pointer active:opacity-30 transition ease-out duration-300'>Objective</h2>
-        <p className='text-white ml-12 mr-5'>To work with an organization where can learn new skills and
-increase my knowledge,abilities for the organization goals as well
-as my professional growth along with the organization. and I am
-looking for a challenging opportunity that will enable me to use
-my skills and abilities to achieve a challenging goal.</p>
-      </div>
+      {
+        ArrayAbout.map((item,i)=>(
+        
+        <div key={i} className='border border-orange-600 rounded-md p-3 mt-4'>
+        <h2 className='text-orange-600 text-xl cursor-pointer active:opacity-30 transition ease-out duration-300'>{item.headerName}</h2>
+        <p className='text-white ml-12 mr-5'>
+          {item.Description}
+        </p>
+        </div>
+       
+       
+        ))
+      }
+      
+
+
+
+     
   
      
 
