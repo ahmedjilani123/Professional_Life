@@ -6,8 +6,8 @@ const Contact = () => {
   }
   return (
     <>
-    <div className='px-3 bg-yellow-500/20 ml-9 w-[200px]  absolute   h-[400px] blur-3xl  rounded-full'> </div>
-    <div className='px-3 bg-blue-600/30 w-[200px] mt-[200px] ml-[70px] absolute h-[300px] blur-3xl  rounded-full'> </div>
+    <div className='px-3 bg-yellow-500/20 ml-9 w-[200px]  absolute   h-[400px] blur-3xl  rounded-full md:hidden'> </div>
+    <div className='px-3 bg-blue-600/30 w-[200px] mt-[200px] ml-[70px] absolute h-[300px] blur-3xl  rounded-full md:hidden'> </div>
       <div id='mainFormPart' className='mt-[8rem]  relative md:mt-3 flex justify-center'>
         <div id='form' className='rounded-md w-[300px]  bg-white/10 shadow-md shadow-orange-600 border border-orange-600 px-2 py-3'>
     <div className='flex justify-center'>
