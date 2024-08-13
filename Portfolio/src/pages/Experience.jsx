@@ -1,7 +1,15 @@
 import React from 'react'
 import experience from '../images/experience.jpg'
 import '../component/partsdesign/profiledesign.css'
+import {delay, motion} from 'framer-motion';
 const Experience = () => {
+  const container =(delay)=>(
+    {
+      hidden:{x:-100,opacity:0},
+      visible:{x:0,opacity:1},
+      transition:{duration:5,delay:delay}
+    }
+  )
   const ArrayExperience=[
     {
       CompanyName:"Daffodils info knowledge solutions",
@@ -41,7 +49,7 @@ const Experience = () => {
       </div>
       {
         ArrayExperience.map((item,i)=>(
-          <div key={i} className='border py-2 border-orange-600 mt-3 rounded-md px-4  shadow-lg shadow-orange-600/50'>
+          <motion.div  variants={container(0.2)} initial="hidden" animate="visible" key={i} className='border py-2 border-orange-600 mt-3 rounded-md px-4  shadow-lg shadow-orange-600/50'>
           <div id='company_name' className='text-white '>
             <div className="relative group cursor-pointer flex w-auto">
               <h1 className='text-2xl font-poppins '>{item.CompanyName} </h1>
@@ -71,7 +79,7 @@ const Experience = () => {
             </ul>
   
           </div>
-        </div>
+        </motion.div>
         ))
       }
      
