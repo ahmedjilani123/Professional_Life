@@ -28,9 +28,9 @@ const Buttons = (props) => {
             btnArray.map((item,i)=> {
                 const Icons = item.component;
                return (
-                <div key={i} onClick={()=>ViewShow(i)} className={`h-16 md:h-auto ${activeIndex === i ? 'text-white border-blue-600':'border-orange-600'} font-poppins group mt-4 text-orange-600 border  rounded-md flex ${eventFire ? 'justify-between' : 'justify-center ' }  p-1 hover:bg-white/30 backdrop-sepia-0  hover:shadow-inner hover:text-white `}>
+                <div key={i} onClick={()=>ViewShow(i)} className={`h-16 md:h-auto ${activeIndex === i ? 'text-white border-blue-600':'border-orange-600'} font-poppins group mt-4 text-orange-600 border  rounded-md flex ${eventFire ? 'justify-between' : 'justify-center ' }  p-1 hover:bg-[#f2d9cbec] backdrop-sepia-0  hover:shadow-inner hover:text-[#f06418] `}>
                   
-                    <Link className={`relative h-full  text-orange-600 flex justify-center content-center pt-3 md:pt-1 cursor-pointer ${eventFire ? 'w-auto' : 'w-full ' } ${activeIndex === i ? 'text-white':''}`} to={item.path}><Icons className='w-full h-9 md:h-5 group-hover:text-white' /></Link>
+                    <Link className={`relative h-full  text-orange-600 flex justify-center content-center pt-3 md:pt-1 cursor-pointer ${eventFire ? 'w-auto' : 'w-full ' } ${activeIndex === i ? 'text-white':''}`} to={item.path}><Icons className='w-full h-9 md:h-5' /></Link>
                  {
                     !eventFire &&
                     <div className="opacity-0 hidden group-hover:block absolute ml-[80px] bottom-1 px-2 py-1 text-sm text-white bg-orange-600 rounded group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform  left-0 ">

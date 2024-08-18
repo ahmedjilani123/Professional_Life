@@ -62,10 +62,10 @@ const TechnicalSkills = () => {
   }
   return (
     <>
-      <div  className="flex justify-center group items-center content-center group w-full h-[100px]  hover:opacity-90 cursor-pointer bg-gradient-to-r from-orange-950 to-orange-600 border border-orange-600 rounded-md shadow-lg shadow-orange-600 grayscale-0 hover:grayscale"  >
+      <div  className="flex justify-center group items-center content-center group w-full h-[100px]  hover:opacity-90 cursor-pointer bg-gradient-to-r to-[#fac0a1]  from-orange-600 border border-orange-600 rounded-md shadow-lg shadow-orange-600 grayscale-0 hover:grayscale"  >
         <motion.div variants={IconView(2.5)} initial="initial" animate="animate">
-        <PiCodeBold className='text-2xl text-orange-400 group-hover:hidden' />
-        <h1 className=' transform font-poppins text-orange-600 text-2xl group-hover:block hidden transition ease-in-out duration-300 '>Technical Skills</h1>
+        <PiCodeBold className='text-2xl text-white group-hover:hidden' />
+        <h1 className=' transform font-poppins  text-2xl group-hover:block hidden transition ease-in-out duration-300 text-white '>Technical Skills</h1>
     
         </motion.div>
          </div>
@@ -85,13 +85,13 @@ const TechnicalSkills = () => {
       </motion.div>
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'> Tools</h1>
       <motion.div variants={container(2)} initial="hidden" animate="visible" className='shadow-lg shadow-orange-600/50 grid md:grid-cols-6 grid-cols-2  justify-items-center gap-x-2  pb-4 mt-0 border border-orange-600 rounded-md'>
-      <div className='hover:scale-105 ease-out transiton duration-300 relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-blue-500  to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
+      <div className='hover:scale-105 ease-out transiton duration-300 relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-[#fac0a1]   to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
           <div className={`imageWebIde mix-blend-multiply w-[4rem] h-[4rem] bg-cover bg-center`}></div>
           <div className="absolute ml-[80px] px-3 py-1 text-sm text-white bg-orange-600 rounded opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform -translate-x-1/2 left-1 bottom-full mb-1">
              Sap Webide
             </div>
         </div>
-        <div className='hover:scale-105 ease-out transiton duration-300 relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-blue-500  to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
+        <div className='hover:scale-105 ease-out transiton duration-300 relative group cursor-pointer shadow-lg shadow-orange-600/50 w-[7rem] h-[5rem] rounded-full bg-gradient-to-r from-[#fac0a1]   to-orange-600 border border-orange-600  mt-6 flex justify-center items-center content-center'>
           <div className={`imageToolBas mix-blend-multiply w-[4rem] h-[4rem] bg-cover bg-center`}></div>
           <div className="absolute ml-[80px] px-3 py-1 text-sm text-white bg-orange-600 rounded opacity-0 group-hover:visible group-hover:opacity-100 transition-opacity duration-200  transform -translate-x-1/2 left-1 bottom-full mb-1">
              Sap BAS

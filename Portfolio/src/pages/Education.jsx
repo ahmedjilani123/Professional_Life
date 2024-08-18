@@ -1,6 +1,7 @@
 import React from 'react'
 import '../component/partsdesign/profiledesign.css'
 import { LuSchool2 } from "react-icons/lu";
+import {motion} from 'framer-motion'
 const Education = () => {
   const EducationArray=[
     {
@@ -25,12 +26,32 @@ const Education = () => {
       location:"Ahmedabad"
     }
   ]
+  const IconView =(duration)=>(
+    {
+      initial:{y:-10},
+      animate:{
+        y:[10,-10],
+        transition:{
+          duration:duration,
+          ease:"linear",
+          repeat:Infinity,
+          repeatType:"reverse"
+
+        }
+      }
+    }
+  )
   return (
     <>
-      <div className="flex justify-center group items-center content-center group w-full h-[100px]  hover:opacity-90 cursor-pointer bg-gradient-to-r from-orange-950 to-orange-600 border border-orange-600 rounded-md shadow-lg shadow-orange-600 grayscale-0 hover:grayscale"  >
-        <LuSchool2 className='text-2xl text-orange-400 group-hover:hidden' />
-        <h1 className=' transform font-poppins text-orange-600 text-2xl group-hover:block hidden transition ease-in-out duration-300 '>Education</h1>
-      </div>
+     <div  className="flex justify-center group items-center content-center group w-full h-[100px]  hover:opacity-90 cursor-pointer bg-gradient-to-r from-[#fac0a1]  to-orange-600 border border-orange-600 rounded-md shadow-lg shadow-orange-600 grayscale-0 hover:grayscale"  >
+        <motion.div variants={IconView(2.5)} initial="initial" animate="animate">
+        <LuSchool2 className='text-2xl text-white group-hover:hidden' />
+       
+        <h1 className=' transform font-poppin text-2xl group-hover:block hidden transition ease-in-out duration-300 text-white '>Soft Skills</h1>
+    
+        </motion.div>
+         </div>
+    
       <h1 className='font-poppins text-orange-500 mt-4 ml-1 font-bold'>Education</h1>
       
       <div className='border grid md:grid-cols-3 grid-cols-1 gap-2 justify-items-center  border-orange-600 mt-1 rounded-md p-2  shadow-lg shadow-orange-600/50'>

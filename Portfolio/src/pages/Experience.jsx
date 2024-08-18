@@ -2,6 +2,7 @@ import React from 'react'
 import experience from '../images/experience.jpg'
 import '../component/partsdesign/profiledesign.css'
 import {delay, motion} from 'framer-motion';
+import { PiCodeBold } from "react-icons/pi";
 const Experience = () => {
   const container =(delay)=>(
     {
@@ -42,11 +43,31 @@ const Experience = () => {
       Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
     }
   ]
+  const IconView =(duration)=>(
+    {
+      initial:{y:-10},
+      animate:{
+        y:[10,-10],
+        transition:{
+          duration:duration,
+          ease:"linear",
+          repeat:Infinity,
+          repeatType:"reverse"
+
+        }
+      }
+    }
+  )
   return (
     <>
-      <div className="imageExperience group w-full h-[165px] bg-cover bg-center hover:opacity-90 cursor-pointer  border border-orange-600 rounded-md shadow-lg shadow-orange-600/50 grayscale-0 hover:grayscale"  >
-        <h1 className='pt-2 transform font-poppins  text-orange-600 text-2xl pl-5 group-hover:block hidden transition ease-in-out duration-300 drop-shadow-sm'>Experience</h1>
-      </div>
+     <div  className="flex justify-center group items-center content-center group w-full h-[100px]  hover:opacity-90 cursor-pointer bg-gradient-to-r to-[#fac0a1]  from-orange-600 border border-orange-600 rounded-md shadow-lg shadow-orange-600 grayscale-0 hover:grayscale"  >
+        <motion.div variants={IconView(2.5)} initial="initial" animate="animate">
+        <PiCodeBold className='text-2xl text-white group-hover:hidden' />
+        <h1 className=' transform font-poppins text-2xl group-hover:block hidden transition ease-in-out duration-300 text-white '>Experience In IT Industry</h1>
+    
+        </motion.div>
+         </div>
+   
       {
         ArrayExperience.map((item,i)=>(
           <motion.div  variants={container(0.2)} initial="hidden" animate="visible" key={i} className='border py-2 border-orange-600 mt-3 rounded-md px-4  shadow-lg shadow-orange-600/50'>

@@ -11,6 +11,11 @@ export default {
       },
       colors: {
         'custom-dark-blue': '#131B2E',
+        backgroundC:'#f06418',
+        BorderC:'#f06418',
+        HoverC:'#ffe0cf',
+        LightBackC:'#ffe0cf'
+
       }
      
     },

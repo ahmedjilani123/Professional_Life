@@ -11,7 +11,7 @@ const Contact = () => {
       <div id='mainFormPart' className='mt-[8rem]  relative md:mt-3 flex justify-center'>
         <div id='form' className='rounded-md w-[300px]  bg-white/10 shadow-md shadow-orange-600 border border-orange-600 px-2 py-3'>
     <div className='flex justify-center'>
-    <h2 className='text-orange-600 font-poppins font-bold'>Contact Form</h2>
+    <h2 className='text-[#f06418] font-poppins font-bold'>Contact Form</h2>
          
     </div>
          <div className='flex justify-evenly flex-wrap w-full '>
@@ -55,13 +55,13 @@ const Contact = () => {
           </div>
           <div className='flex justify-evenly flex-wrap pt-2'>
           <div>
-            <div className='w-[7rem] h-8 shadow-md rounded-md border border-orange-600  bg-transparent flex justify-center items-center'>
-            <button className='text-red-700 font-bold h-full w-full rounded-md font-poppins shadow-lg hover:shadow-red-500'>Cancel</button>
+            <div className='w-[7rem] h-8 shadow-md groupc  rounded-md border border-orange-600  bg-transparent flex justify-center items-center'>
+            <button className='text-[#f06418]  active:bg-[#f28043] active:text-white  h-full w-full rounded-md font-poppins shadow-md hover:shadow-[#fac0a1]'>Cancel</button>
             </div>
           </div>
           <div>
-            <div className='w-[7rem] h-8 shadow-md rounded-md  flex justify-center items-center border border-blue-600'>
-            <button className='text-white font-bold h-full w-full rounded-md font-poppins shadow-lg hover:shadow-blue-500 active:bg-blue-600 ' onClick={SubmitHandlerPress}>Submit</button>
+            <div className='w-[7rem] h-8 bg-[#f06418] shadow-md rounded-md  flex justify-center items-center border border-orange-600'>
+            <button className='text-white  h-full w-full rounded-md font-poppins shadow-md hover:shadow-[#fac0a1] active:bg-[#f28043] ' onClick={SubmitHandlerPress}>Submit</button>
               </div>
           </div>
           </div>
