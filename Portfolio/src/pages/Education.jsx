@@ -47,7 +47,7 @@ const Education = () => {
         <motion.div variants={IconView(2.5)} initial="initial" animate="animate">
         <LuSchool2 className='text-2xl text-white group-hover:hidden' />
        
-        <h1 className=' transform font-poppin text-2xl group-hover:block hidden transition ease-in-out duration-300 text-white '>Soft Skills</h1>
+        <h1 className=' transform font-poppin text-2xl group-hover:block hidden transition ease-in-out duration-300 text-white '>Education Qualification</h1>
     
         </motion.div>
          </div>

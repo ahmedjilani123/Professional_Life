@@ -13,35 +13,21 @@ const Experience = () => {
   )
   const ArrayExperience=[
     {
-      CompanyName:"Daffodils info knowledge solutions",
+      CompanyName:"Daffodils Info Solutions Pvt.Ltd",
       ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
+      Description:["The Barcode Scan Application for Process Automation aims to streamline and automate the process of managing production and stock transfers within the client's manufacturing and logistics operations","The solution involves the integration of barcode scanning functionality to track and process materials as they move through various stages, including FG (Finished Goods) to SFG (Semi-Finished Goods), and further to delivery and PGI (Post Goods Issue) to stock transfer.","The application is built using SAP Fiori/UI5, incorporating various controls such as Input, Button, FilterObject, Table (SAP.m.Table), Dialog, Fragment, Formatter, and Form to enhance user interaction and ensure a smooth, responsive, and efficient experience","The application also leverages OData services for seamless integration with backend systems, ensuring real-time data exchange for accurate tracking and updating of inventory and production data."]
     },
     {
-      CompanyName:"Daffodils info knowledge solutions",
-      ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
+      CompanyName:"Daffodils Info Solutions Pvt.Ltd",
+      ProjectName:"Health Monitoring Application",
+      Description:["The Health Monitoring Application is designed to track and monitor various health-related KPIs (Key Performance Indicators) for individuals.","It integrates real-time data from SAP APIs and provides a user-friendly interface based on SAP Fiori design principles","The application includes features like input fields for capturing user data such as date ranges or specific KPI searches, SAP.m.Table for displaying health metrics in a structured and sortable format, and a filter object to refine the displayed data based on user-defined criteria like date or thresholds"," Navigation between views is handled using a router with parameters, allowing seamless transitions with context-specific data such as user IDs or selected KPIs","To enhance visualization, the application leverages VizFrame charts, including pie charts for representing percentage-based distributions (e.g., time spent in different heart rate zones) and column charts for showing trends over time (e.g., weekly or monthly activity levels).By combining these controls and features, the application delivers actionable insights and an interactive user experience while maintaining responsiveness across all devices."]
     },
     {
-      CompanyName:"Daffodils info knowledge solutions",
-      ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
-    },
-    {
-      CompanyName:"Daffodils info knowledge solutions",
-      ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
-    },
-    {
-      CompanyName:"Daffodils info knowledge solutions",
-      ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
-    },
-    {
-      CompanyName:"Daffodils info knowledge solutions",
-      ProjectName:"Barcode Scan Application For Process Automation",
-      Description:["Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views.","Developed the application using various UI5 controls like forms, table, Input, Select, Button, ComboBox, etc. in JavaScript and Xml Views."]
+      CompanyName:"Daffodils Info Solutions Pvt.Ltd",
+      ProjectName:"Ticketalk",
+      Description:["The Ticketalk Application is designed to streamline and manage the ticketing process within the organization"," The application provides functionality for raising, managing, and tracking tickets, enabling efficient communication and resolution of issues."," It includes features such as creating and managing tickets, viewing ticket details, closing tickets, and sending email notifications to the relevant client. Additionally, the system displays the details of users who created tickets, ensuring accountability and transparency","This application is built using SAP Fiori/UI5 and includes controls such as Input, MaskInput, SAP.m.Table, FilterObject, Flexible Column Layout, Dialog, ShellBar, and Fragment, enhancing its functionality and user experience."]
     }
+   
   ]
   const IconView =(duration)=>(
     {
